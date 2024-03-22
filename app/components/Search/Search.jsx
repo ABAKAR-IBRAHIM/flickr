@@ -9,6 +9,7 @@ export default function Search() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!search) return;
     router.push(`/tagged/${search}`);
     setSearch("");
   };

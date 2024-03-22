@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Search from "./Search";
+import Search from "../Search/Search";
 
 export default function Navbar() {
   return (
